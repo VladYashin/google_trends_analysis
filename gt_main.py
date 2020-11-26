@@ -1,6 +1,5 @@
 import pandas as pd
 from pytrends.request import TrendReq
-import geopandas as gpd
 
 # Data import
 data = pd.read_excel('keywords_trends.xlsx', index_col=False)
